@@ -478,26 +478,112 @@ h2{
 
 /**/
 
+.feedback{
+    position: relative;
+}
+
 .feedback_img{
     width: 100vw;
-    box-sizing: border-box;
-    height: 70vh;
-    z-index: 2;
-    
+    height: 50vh;
+   
 }
 
 .communication_field{
-    width: 20vw;
-    height: 20vh;
-    z-index: 1;
+    top: 62vh;
+    width: 25vw;
+    height: 37vh;
+    background-color: white;
+    z-index: 2;
+    position: absolute;
+    left: 73vw;
+}
+
+.name,.tel{
+    width: 19vw;
+    height: 4vh;
+    /* border: 1px solid #000000; */
+    margin: 9px;
+    top: 2vh;
+    left: 5vw;
     position: relative;
-    top: 10px;
+    padding: 8px;
 
 }
 
+.text_question{
+    float: left;
+    position: relative;
+    left: 5.4vw;
+    top: 1vh;
+    font-family: sans-serif;
+    font-size: .9em;
+}
 
+.container_check{
+    display: block;
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-size: 27px;
+    user-select: none;
+    background-color: rgb(104, 191, 245);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.checkmark{
+    position: absolute;
+    top: 3vh;
+    left: 5.8vw;
+    height: 25px;
+    width: 25px;
+    text-decoration: line-through;
+    opacity: 1;
+    font-size: 0.2em;
+    /* border: 1px solid; */
 
+}
+.container_check:hover input ~ .checkmark {
+    background-color: #e22323;
+}
 
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    opacity: 1;
+}
+
+input{
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+
+}
+
+.ghgh{
+    position: absolute;
+}
+.agreement{
+    top: 0.7vh;
+    font-size: 2.5em;
+    float: right;
+    left: 37px;
+    position: absolute;
+    width: 17vw;
+}
+
+.input{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
 
 
 
