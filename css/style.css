@@ -27,12 +27,16 @@ html{
 }
 
 body{
+    margin: 0;
+    padding: 0;
     font-family:'Roboto Condensed';
     font-style: normal;
     font-size: 16px;
     line-height: 1.2;
     font-weight: normal;
     color: #000000; 
+
+   
       
 }
 
@@ -106,6 +110,10 @@ body{
 .header_link :hover, .header_link :focus, .header_link:active{
     opacity: .85%;
     background-color: aqua;
+}
+
+.Promo{
+    width: 100%;
 }
 
 /*  Header style end */
@@ -222,7 +230,8 @@ list-style-type: none;
     font-size: 27px;
     font-family: -webkit-body;
     padding: 0;
-    margin-left: -47.6em;
+    margin-top: 8vh;
+    margin-left: 9.4em;
 }
 
 .Product{
@@ -239,10 +248,10 @@ list-style-type: none;
 }
 
 .groop{
-   display: flex;
-    margin-left: 12%;
-    padding: 14px;
-    width: 77%;
+    display: flex;
+    margin-left: 13%;
+    width: 75%;
+    margin-top: 16vh;
     
 }
 
@@ -308,7 +317,7 @@ list-style-type: none;
 .container_slider_css{
     margin: 50px auto;
     width: 72.6vw;
-    height: 90vh;
+    height: 100vh;
     overflow: hidden;
     position: relative;
     box-sizing: border-box;
@@ -334,11 +343,11 @@ img:nth-child(1){animation-delay:12s}
 img:nth-child(2){animation-delay:8s}
 img:nth-child(3){animation-delay:4s}
 img:nth-child(4){animation-delay:0}
-@media(min-width:0px) and (max-width:320px) {
+@media(min-width:0px) and (max-width:1024px) {
 .container_slider_css{width:80%;height:190px}
 }
 @media(min-width:321px) and (max-width:480px) {
-.container_slider_css{width:100%;height:190px}
+.container_slider_css{width:100%;height:190px }
 }
 
 
@@ -426,11 +435,11 @@ img:nth-child(4){animation-delay:0}
 @media(min-width:0px) and (max-width:320px) {
 .container_slider_css{width:80%;height:190px}
 }
-@media(min-width:321px) and (max-width:480px) {
-.container_slider_css{width:100%;height:190px}
+@media(min-width:321px) and (max-width:1280px) {
+.container_slider_css{width:64%; left: 7%; top:3%; height: 63vh}
 }
 
-h2{
+.title_project{
     margin-left:  12.7vw; 
     font-size: 2.7em;
     font-family:Webkit-body;
@@ -454,6 +463,7 @@ h2{
 
 /* The end Примеры выполненых работ! */
 
+/*Дата и время работ*/
 
 .time_box{
     margin-top: 48vh;
@@ -472,20 +482,116 @@ h2{
     margin: 0px -8px 0 -107px;
 }
 
+/* The end Time Работ! */
 
+/**/
+
+.feedback{
+    position: relative;
+}
 
 .feedback_img{
     width: 100vw;
-    box-sizing: border-box;
-    height: 70vh;
-    
+    height: 50vh;
+   
 }
 
+.communication_field{
+    top: 62vh;
+    width: 25vw;
+    height: 37vh;
+    background-color: white;
+    z-index: 2;
+    position: absolute;
+    left: 73vw;
+}
 
+.name,.tel{
+    width: 19vw;
+    height: 4vh;
+    margin: 9px;
+    top: 2vh;
+    left: 5vw;
+    position: relative;
+    padding: 8px;
 
+}
 
+.text_question{
+    float: left;
+    position: relative;
+    left: 5.4vw;
+    top: 1vh;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    width: 19vw;
+}
 
+.container_check{
+    display: block;
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-size: 27px;
+    user-select: none;
+    background-color: rgb(104, 191, 245);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.checkmark{
+    position: absolute;
+    top: 3vh;
+    left: 5.8vw;
+    height: 25px;
+    width: 25px;
+    text-decoration: line-through;
+    opacity: 1;
+    font-size: 0.2em;
+    /* border: 1px solid; */
 
+}
+.container_check:hover input ~ .checkmark {
+    background-color: #e22323;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    opacity: 1;
+}
+
+input{
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+
+}
+
+.ghgh{
+    position: absolute;
+}
+.agreement{
+    top: 0.7vh;
+    font-size: 2.3em;
+    float: right;
+    left: 29px;
+    position: absolute;
+    width: 16vw;
+}
+
+.input{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
 
 
 
