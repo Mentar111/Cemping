@@ -153,8 +153,7 @@ font-weight: 500;
     line-height: 143%;
  
 }  
-
-h1{
+.Main_title{
     
     max-width: 84%;
     color: white;
@@ -163,6 +162,7 @@ h1{
     font-family: roboto Condensed;
     text-align: center;
     line-height: 110%;
+   
 }
 
 
