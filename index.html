@@ -211,7 +211,7 @@
                           
 
  <section class="feedback">
- <div class="communication_field"> 
+ <form method="get" name="feedback" class="communication_field"> 
  <h4 class=" text_question">Если остались вопросы с нашими специалистоми</h4>
     <div  class="name" >
         <input type="Имя" class="input" placeholder="Имя">  
@@ -222,10 +222,23 @@
      <div class="container_check">
         <span class="checkmark">
             <p class="agreement">согласие на обработку персональных данных</p> 
-        <input id="check1" name="name" checked="checked" type="checkbox" placeholder="Имя">
+        <input id="check1" name="name"  removeAtter type="checkbox" >
      </span>
+
+        <form action="text_sms">
+            <input type="text" checked="text" class="text_sms" placeholder="Введите сообщение..." required="*" type="Enter">
+        </form>
+   
+        <form type="Button" >
+            <input type="submit" checked="Button" class="execute">
+        </form>
+
     </div>
-  </div>
+ </form>
+ <div class="discount_text">
+ <h4>Мы знаем как сэкономить </h4>
+ <p>Скидка на <span class="discount">20%</span>  все наши материалы</p>
+</div>
  <img class="feedback_img" src="https://pro-dachnikov.com/uploads/posts/2021-10/1634046886_154-p-dom-s-podvalom-foto-173.jpg" alt="">
 
   </section>
