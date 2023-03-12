@@ -101,7 +101,7 @@
 
     .title_project {
         margin-left: 12.7vw;
-        font-size: 1.7em;
+        font-size: 1.6em;
         font-family: Webkit-body;
         margin-bottom: -0.9em;
     }
@@ -127,7 +127,7 @@
     }
 
     .communication_field {
-        top: 61vh;
+        top: 82vh;
         width: 29vw;
         height: 33vh;
         left: 70vw;
@@ -203,11 +203,21 @@
       }
     
         .title{
-            font-size: 0.8em;
+            top: -2vh;
+            font-size: 1.8em;
+            display: flex;
+            justify-content: center;
+            left: -21vh;
+            position: relative;
         }
-        h2{
-            width: 700px;
-           font-size: 1em;
+        .h2{
+            top: 147vh;
+            width: 100%;
+            font-size: 1.3em;
+            position: absolute;
+            justify-content: center;
+            display: flex;
+            left: -1vw;     
         }
 
     
@@ -222,10 +232,150 @@
 
 
         .fraem{
-        position: inherit;
-        width: 100%;
+            position: relative;
+            width: 100%;
+            top: -6vh;
+            left: 0;
     
          }
+
+         .services_text{
+            font-size: 1.7em;
+            font-family: -webkit-body;
+            padding: 0;
+            top: 158vh;
+            left: -8vw;
+         }
+
+         .slider_text{
+            top: 396vh;
+            position: absolute;
+            font-size: 1.9em;
+            justify-content: center;
+            display: flex;
+            left: 8vw;
+            font-family: emoji;
+         }
+
+         .slogon{
+            display: flex;
+            position: relative;
+             justify-content: center;
+            left: 65vw;
+            top: 3vh;
+         }
+
+         .container_slider_css {
+             width: 64%;
+             left: 16.1vw;
+             top: 8%;
+             height: 65vh;
+         }
+
+         .advantages_item{
+             
+            width: 139%;
+            display: inherit;
+            font-size: 1.1em;
+            top: -23vh;
+            position: relative;
+            left: -2vw;
+            margin: 0 0 53px 0;
+         }
+
+         h5{
+            
+            top: 11vh;
+            font-size: 1.3em;
+         }
+
+         .container_advantages{
+
+            position: relative;
+            justify-content: center;
+            display: grid;
+         }
+
+         .vector_text{
+
+            font-size: 1.2em;
+            width: 58%;
+         }
+
+         .advantages{
+            
+            left: 10vw;
+            position: relative;
+         }
+
+         .communication_field {
+            top: 74vh;
+            width: 29vw;
+            height: 33vh;
+            left: 70vw;
+        }
+
+        .execute {
+            width: 13.2vw;
+            height: 4.2vh;
+            left: 9vw;
+            top: 17vh;
+            font-size: 0.6em;
+        }
+
+        .discount_text {
+            width: 37%;
+            top: 34vh;
+            position: relative;
+            left: 5%;
+            font-size: 1.6em;
+            color: honeydew;
+        }
+
+        .text_sms {
+            width: 19.2vw;
+            position: absolute;
+            height: 8.2vh;
+            margin: 0 auto;
+            left: 1.9vw;
+            top: 70px;
+            font-size: 0.5em;
+        }
+
+        .work_item{
+            width: 109%;
+        }
+
+        .title_project {
+            margin-left: 12.7vw;
+            font-size: 1.5em;
+        }
+
+
+        .works_text {
+            width: 34vw;
+            float: left;
+            margin-top: 11vmax;
+            margin-left: -18.4vmax;
+            font-size: 1.3em;
+        }
+
+
+        .time_box {
+            float: left;
+            left: -6vw;
+            position: relative;
+            width: 15%;
+            font-size: .8em;
+            bottom: -6px;
+        }
+
+        .time_text {
+            width: 14vw;
+            float: left;
+            font-size: 16.7px;
+            margin: -3px -8px 0 -114px;
+        }
 
         
 }

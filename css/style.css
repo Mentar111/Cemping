@@ -503,7 +503,7 @@ img:nth-child(4){animation-delay:0}
     color: white;
     z-index: 2;
     position: absolute;
-    left: 73vw;
+    left: 62vw;
     background-color: rgb(35 71 104 / 59%);
 }
 
@@ -1029,4 +1029,21 @@ margin:auto;
     left: 5%;
     font-size: 1.6em;
     color: honeydew;
+}   
+
+
+.container_footer{
+    width: 100%;  
+    background: #616161;  
+
+height: 100%;
+}
+
+.footer{ 
+    background: #616161;
+}
+
+.text_footer{ 
+    padding: 10px 10px 10px 10px;
+    
 }
